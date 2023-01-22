@@ -4,13 +4,33 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
-public class WordManager : MonoBehaviour
+[System.Serializable]
+public class StringLanguages
 {
+    public string Bangla,Hindi,Urdu,English;
+}
+[System.Serializable]
+public class SoundLanguages
+{
+    public AudioClip Bangla,Hindi,Urdu,English;
+
+}
+public class WordManager : MonoBehaviour
+{    
     [SerializeField] Transform item_Parent;
     [SerializeField] private GameObject @null;
     // Start is called before the first frame update
     [SerializeField]Text text;
+    public enum Language
+    {
+        None,Bangla,Hindi,Urdu,English
+    }
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    public static WordManager Instance;
+   
+    public Language language;
     void Start()
     {
         CreateItem( @null) ;
@@ -26,7 +46,7 @@ public class WordManager : MonoBehaviour
         newObject.transform.rotation=Quaternion.identity;
         if(text)
         {
-            text.text=prefab.transform.GetComponent<Letter_Alphabet>().wordName;
+            text.text=prefab.transform.GetComponent<Letter_Alphabet>().CurrentWord();
 
         }
     }
@@ -40,6 +60,11 @@ public class WordManager : MonoBehaviour
 
     private void Awake() 
     {
+        if(Instance==null)
+        {
+          Instance=this; 
+        }
+        
         if(audioSource==null)
         {
             AudioSource au=gameObject.AddComponent<AudioSource>();

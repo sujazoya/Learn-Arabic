@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8749749678663147133}
   - component: {fileID: 8774374846380616286}
   - component: {fileID: 3701897412444098351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_221
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3887451634970890965}
   - component: {fileID: 6511416654222432606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alif-do-pesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,8 +124,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: "B\xA2mg-\xADc\xA1-\xADfn"
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}
 --- !u!1 &3830543501045016859
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +148,7 @@ GameObject:
   - component: {fileID: 1070272593305882801}
   - component: {fileID: 7848299203833671054}
   - component: {fileID: 4268546788034304387}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_222
   m_TagString: Untagged
   m_Icon: {fileID: 0}

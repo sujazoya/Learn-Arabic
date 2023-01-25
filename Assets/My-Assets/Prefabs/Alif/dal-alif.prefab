@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2831246414305983858}
   - component: {fileID: -4681429531733226963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dal-alif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,8 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: 
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}
 --- !u!1 &5538114590628237134
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +69,7 @@ GameObject:
   - component: {fileID: 9019078545395242193}
   - component: {fileID: 7220515080402917475}
   - component: {fileID: 8752024690829968373}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +148,7 @@ GameObject:
   - component: {fileID: 980471567820299694}
   - component: {fileID: 5403999936219498285}
   - component: {fileID: 545812453877998731}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_056
   m_TagString: Untagged
   m_Icon: {fileID: 0}

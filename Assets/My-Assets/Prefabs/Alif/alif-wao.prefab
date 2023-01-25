@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1448810237833192700}
   - component: {fileID: 1429954130399200616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alif-wao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,8 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: 
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}
 --- !u!1 &5244895069729219803
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +69,7 @@ GameObject:
   - component: {fileID: 8839751130347879710}
   - component: {fileID: 3899537807846675123}
   - component: {fileID: 2962086582429534217}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_147
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +148,7 @@ GameObject:
   - component: {fileID: 2707645888139263672}
   - component: {fileID: 3184142451974714843}
   - component: {fileID: 6444957794111233554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_146
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2120130490678342583}
   - component: {fileID: 9033896613263535956}
   - component: {fileID: 8339971657369159279}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_148
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 6230492820687199962}
   - component: {fileID: 1909116174871859489}
   - component: {fileID: 2304832986934095030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_149
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6121592235111543679}
   - component: {fileID: -6705542368348395496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alif-ha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,5 +203,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: 
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}

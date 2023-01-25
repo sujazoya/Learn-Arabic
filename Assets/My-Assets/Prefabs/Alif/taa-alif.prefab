@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6269031247843643433}
   - component: {fileID: 7888807705726847554}
   - component: {fileID: 254945848069366751}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_137
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5530904909310282109}
   - component: {fileID: 4961306783003912284}
   - component: {fileID: 6708356669186196267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_136
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 2152137920300772567}
   - component: {fileID: 1804424420882201184}
   - component: {fileID: 867628961933851310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331549711008725114}
   - component: {fileID: 8712246343783881509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: taa-alif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,8 +284,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: 
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}
 --- !u!1 &8826898454950450317
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +308,7 @@ GameObject:
   - component: {fileID: 3331033120482377788}
   - component: {fileID: 6272943739465187092}
   - component: {fileID: 6326243483246681156}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_134
   m_TagString: Untagged
   m_Icon: {fileID: 0}

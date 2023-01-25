@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 288458877613146121}
   - component: {fileID: 9003247813214660279}
   - component: {fileID: 5832288912076669809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7598657177314542131}
   - component: {fileID: 623361936135854326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: sheen-alif
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,8 +124,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0ed32796d3b01468f5dbac40086133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordName: 
-  wordSound: {fileID: 0}
+  wordName:
+    Bangla: 
+    Hindi: 
+    Urdu: 
+    English: 
+  sound:
+    Bangla: {fileID: 0}
+    Hindi: {fileID: 0}
+    Urdu: {fileID: 0}
+    English: {fileID: 0}
+  wordEffect: {fileID: 0}
+  reward: {fileID: 0}
+  emmojiEffect: {fileID: 0}
 --- !u!1 &4447650952437835283
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +148,7 @@ GameObject:
   - component: {fileID: 8815794618099045828}
   - component: {fileID: 4202575035524005029}
   - component: {fileID: 5474538474046197927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +227,7 @@ GameObject:
   - component: {fileID: 168418715966210393}
   - component: {fileID: 2806569787927165572}
   - component: {fileID: 3394344473484795212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +306,7 @@ GameObject:
   - component: {fileID: 1411731566246538193}
   - component: {fileID: 349480546970098618}
   - component: {fileID: 8971895458484470925}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +385,7 @@ GameObject:
   - component: {fileID: 486630368900903350}
   - component: {fileID: 7365383649789002721}
   - component: {fileID: 3947614809802849542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Curve_042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
